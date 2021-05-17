@@ -86,3 +86,15 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1621259933476	Marionette	INFO	Listening on port 56762
 1621259933645	Marionette	WARN	TLS certificate errors will be ignored for this session
 1621259934149	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621261075114	geckodriver	INFO	Listening on 127.0.0.1:57241
+1621261078159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofile1uB5MC"
+1621261079387	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofile1uB5MC\\search.json.mozlz4", (void 0)))
+1621261082813	Marionette	INFO	Listening on port 57249
+1621261082965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621261083396	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621261143368	Marionette	INFO	Stopped listening on port 57249
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
