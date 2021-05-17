@@ -1,0 +1,88 @@
+1621256889208	geckodriver	INFO	Listening on 127.0.0.1:55526
+1621256892247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilebuQpTb"
+1621256893518	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilebuQpTb\\search.json.mozlz4", (void 0)))
+1621256897218	Marionette	INFO	Listening on port 55534
+1621256897555	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621256898032	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621256994281	Marionette	INFO	Stopped listening on port 55534
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilecVfufH"
+1621256932625	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilecVfufH\\search.json.mozlz4", (void 0)))
+1621256936292	Marionette	INFO	Listening on port 55623
+1621256936640	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621256937098	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621256939744	Marionette	INFO	Stopped listening on port 55623
+1621256998773	geckodriver	INFO	Listening on 127.0.0.1:55697
+1621257001812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileSAvsDQ"
+1621257003089	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileSAvsDQ\\search.json.mozlz4", (void 0)))
+1621257006790	Marionette	INFO	Listening on port 55708
+1621257007136	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621257007609	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1621257037292	Marionette	INFO	Stopped listening on port 55708
+1621257057090	geckodriver	INFO	Listening on 127.0.0.1:55790
+1621257060137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileHGRoBp"
+1621257061428	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileHGRoBp\\search.json.mozlz4", (void 0)))
+1621257065098	Marionette	INFO	Listening on port 55798
+1621257065471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621257065946	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621257109751	Marionette	INFO	Stopped listening on port 55798
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621257726142	geckodriver	INFO	Listening on 127.0.0.1:55969
+1621257729187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileCXAJ4t"
+1621257730364	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileCXAJ4t\\search.json.mozlz4", (void 0)))
+1621257734055	Marionette	INFO	Listening on port 55978
+1621257734506	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621257734936	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621257754513	Marionette	INFO	Stopped listening on port 55978
+1621258361844	geckodriver	INFO	Listening on 127.0.0.1:56101
+1621258364891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofile8qo4Qj"
+1621258365996	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofile8qo4Qj\\search.json.mozlz4", (void 0)))
+1621258369511	Marionette	INFO	Listening on port 56109
+1621258369693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621258370114	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621259179599	geckodriver	INFO	Listening on 127.0.0.1:56340
+1621259182624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileyV5mnb"
+1621259183865	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileyV5mnb\\search.json.mozlz4", (void 0)))
+1621259187525	Marionette	INFO	Listening on port 56348
+1621259187937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621259188412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621259193390	Marionette	INFO	Stopped listening on port 56348
+1621259262399	geckodriver	INFO	Listening on 127.0.0.1:56433
+1621259265431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilemlrsuq"
+1621259266782	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilemlrsuq\\search.json.mozlz4", (void 0)))
+1621259270611	Marionette	INFO	Listening on port 56444
+1621259270759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621259271275	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1621259927341	geckodriver	INFO	Listening on 127.0.0.1:56754
+1621259930394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilehM88XC"
+*** You are running in headless mode.
+1621259931602	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilehM88XC\\search.json.mozlz4", (void 0)))
+1621259933476	Marionette	INFO	Listening on port 56762
+1621259933645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621259934149	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
