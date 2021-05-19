@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # 设置chrome为无界面浏览器
 # options = Options()
 # options.add_argument('--headless')
-#使用selenium+firefox实现爬虫
+#使用selenium+firefox实现爬虫    uu
 #
 driver = webdriver.Firefox(executable_path=r"D:\geckodriver\geckodriver.exe")#,options=options
 driver.get("http://www.pbc.gov.cn/")
