@@ -9,23 +9,25 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 # 设置chrome为无界面浏览器
-# options = Options()
-# options.add_argument('--headless')
-#使用selenium+firefox实现爬虫    uu
+options = Options()
+options.add_argument('--headless')
+#使用selenium+firefox实现爬虫  抓取政策重要新闻  uu
 #
-driver = webdriver.Firefox(executable_path=r"D:\geckodriver\geckodriver.exe")#,options=options
-driver.get("http://www.pbc.gov.cn/")
-elem=""
-assert "中国人民银行" in driver.title
+driver = webdriver.Firefox(executable_path=r"D:\geckodriver\geckodriver.exe",options=options)#
+driver.get("http://www.gov.cn/xinwen/index.htm")
+elems=""
+assert "新闻" in driver.title
 try:
-    elem = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, "/html/body/div[4]/table[2]/tbody/tr/td[3]/table[2]/tbody/tr[2]/td/div/div/div[2]/table/tbody/tr/td/a"))
+    elems = WebDriverWait(driver, 10).until(
+        EC.presence_of_all_elements_located((By.XPATH, "/html/body/div[1]/div[1]/div[4]/div[1]/div[2]/dl/dd/h4/a"))
     )
 except:
     print("出错了！！")
 assert "No results found." not in driver.page_source
-title=elem.get_attribute("title")
-print(title)
-elem.click()
-driver.save_screenshot('screenshot.png')
+print("新闻标题为:  \t \n")
+href=""
+for elem in elems:
+    title=elem.get_attribute("innerHTML")
+    href=elem.get_attribute("href")
+    print("{}，对应链接为>>>>{} \n".format(title,href))
 driver.close()
